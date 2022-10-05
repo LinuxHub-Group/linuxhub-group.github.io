@@ -63,7 +63,7 @@ jobs:
         id: restore-build
         with:
           path: ./public
-          key: "hugo-build"
+          key: ${{ github.sha }}
 
   # Deployment job
   deploy:
@@ -86,7 +86,7 @@ jobs:
         id: restore-build
         with:
           path: ./public
-          key: "hugo-build"
+          key: ${{ github.sha }}
 
       - name: IPFS Pinata deploy
         id: ipfs
