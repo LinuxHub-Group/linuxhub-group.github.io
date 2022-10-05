@@ -1,0 +1,47 @@
+baseURL = ""
+languageCode = "zh-cn"
+title = "Linuxhub"
+theme = "github-style"
+# googleAnalytics = "UA-123456-789"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "LinuxHub"
+  description = "In solitude, where we are least alone."
+  github = "LinuxHub-Group"
+#   facebook = "MeiK2333"
+#   twitter = "MeiK2333"
+#   linkedin = "MeiK2333"
+#   instagram = "MeiK2333"
+#   tumblr = "MeiK2333"
+#   email = "meik2333@gmail.com"
+  url = "https://github.com/LinuxHub-Group"
+  keywords = "blog"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "🥵"
+  favicon = "/images/github.png"
+  location = "Japan"
+  enableGitalk = true
+
+#   [params.gitalk]
+#     clientID = "Your client ID" 
+#     clientSecret = "Your client secret" 
+#     repo = "repo"
+#     owner = "MeiK2333"
+#     admin = "MeiK2333"
+#     id = "location.pathname"
+#     labels = "gitalk"
+#     perPage = 15
+#     pagerDirection = "last"
+#     createIssueManually = true
+#     distractionFreeMode = false
+
+#   [[params.links]]
+#     title = "Link2"
+#     href = "https://meik2333.com"
+#     icon = "https://meik2333.com/images/avatar.png"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
