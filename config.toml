@@ -26,19 +26,14 @@ pygmentsUseClasses = true
   favicon = "images/github.png"
   location = "Japan"
   enableGitalk = false
+  enableGiscus = true
 
-#   [params.gitalk]
-#     clientID = "Your client ID" 
-#     clientSecret = "Your client secret" 
-#     repo = "repo"
-#     owner = "MeiK2333"
-#     admin = "MeiK2333"
-#     id = "location.pathname"
-#     labels = "gitalk"
-#     perPage = 15
-#     pagerDirection = "last"
-#     createIssueManually = true
-#     distractionFreeMode = false
+  [params.giscus]
+    repo = "LinuxHub-Group/linuxhub-group.github.io"
+    repo_id = "R_kgDOIItJPA"
+    category = "Show and tell"
+    category_id = "DIC_kwDOIItJPM4CR1Sn"
+    lang = "en"
 
 #   [[params.links]]
 #     title = "Link2"
